@@ -1,0 +1,15 @@
+{
+  "AppConfig": {
+    "ServiceBusConnectionString": "Endpoint=sb://ccaidauesdevir2sb001.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=OLQnsp0G3L2TtD9WfNUTWZ0TdJ9lnpuFggJV2R6Vc/A=",
+    "QueueName": "test",
+    "HttpTriggeredFunctionBaseUrl": "http://localhost:7071/api/"
+  },
+    "exclude": [
+      "**/bin",
+      "**/bower_components",
+      "**/jspm_packages",
+      "**/node_modules",
+      "**/obj",
+      "**/platforms"
+    ]
+  }

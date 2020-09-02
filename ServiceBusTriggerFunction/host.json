@@ -1,0 +1,33 @@
+{
+  "version": "2.0",
+  "extensions": {
+    "serviceBus": {
+      //"prefetchCount": 100,
+      "messageHandlerOptions": {
+        "autoComplete": true,
+        "maxAutoRenewDuration": "00:55:00",
+        "maxConcurrentCalls": 5
+      }
+    }
+  },
+  "functions": [
+    //"CocaColaQueueTrigger",
+    //"CocaColaQueueWithCheckTrigger",
+    "CocaColaTopicTrigger",
+    //"CreateRule",
+    //"GetQueueProperties",
+    //"ReportMessageQueueCount",
+    //"ReportMessageTopicSubsCount",
+    //"SessionHandleWithRegister",
+    "SessionHandlerUsingSessionClient"
+    //"DeadLetterTriggered"
+  ],
+    "logging": {
+        "applicationInsights": {
+            "samplingExcludedTypes": "Request",
+            "samplingSettings": {
+                "isEnabled": true
+            }
+        }
+    }
+}
